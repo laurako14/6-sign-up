@@ -5,7 +5,7 @@ body {
     .container {
         display: inline-block;
         width: 800px;
-        background-color: white;
+        background-color: pink;
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
     }
@@ -16,17 +16,20 @@ body {
             float: left;
             margin-top: 20px;
             background-color: #0069ba;
+            padding: 40px;
+            padding-bottom: 20px;
+            color: white;
         }
 
             .page-title {
+                display: inline-block;
+                width: 100%;
                 margin-top: 20px;
                 margin-left: 30px;
-                color: white;
-            }
+                }
 
             .bottom-links {
-
-            }
+                }
 
                 .bottom-links > .link {
 
@@ -38,9 +41,10 @@ body {
         
         .right-column {
             display: inline-block;
-            width: calc (60% - 120px - 120px);
+            width: calc(100% - 120px - 120px);
             float: left;
             padding: 60px;
+            background-color: white;
         }
 
             .close {
@@ -48,28 +52,57 @@ body {
             }
 
             .form {
-
+                display: inline-block;
+                width: 100%;
             }
                 .form-row {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
 
+                .form-row:last-of-type {
+                    margin-bottom: 0;
                 }
 
                     .label {
-
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 13px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                        margin-bottom: 5px;
                     }
 
                     .input {
-
+                        display: inline-block;
+                        width: 100%;
+                        font-size: 18px;
                     }
 
                     .btn {
-
+                        display: inline-block;
+                        padding: 10px;
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        line-height: 20px;
+                        font-size: 18px;
+                        border-radius: 20px;
+                        background-color: #0069ba;
+                        color: white; 
                     }
 
                     .form-row > .text {
-
+                        display: inline-block;
+                        padding: 10px;
+                        line-height: 20px;
+                        font-size: 18px;
                     }
 
                     .form-row > .link {
-
+                        display: inline-block;
+                        padding: 10px;
+                        line-height: 20px;
+                        font-size: 18px;
+                        color: #0069ba;
                     }
