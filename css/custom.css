@@ -41,7 +41,7 @@ body {
         
         .right-column {
             display: inline-block;
-            width: calc(100% - 120px - 120px);
+            width: 60%;
             float: left;
             padding: 60px;
             background-color: white;
