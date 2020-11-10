@@ -1,17 +1,27 @@
 body {
-
+    background-color: #4BB3C9;
 }
 
     .container {
-
+        display: inline-block;
+        width: 800px;
+        background-color: white;
+        margin-top: 100px;
+        margin-left: calc((100% - 800px) / 2);
     }
 
         .left-column {
-
+            display: inline-block;
+            width: 40%;
+            float: left;
+            margin-top: 20px;
+            background-color: #0069ba;
         }
 
             .page-title {
-
+                margin-top: 20px;
+                margin-left: 30px;
+                color: white;
             }
 
             .bottom-links {
@@ -27,7 +37,10 @@ body {
                 }
         
         .right-column {
-
+            display: inline-block;
+            width: calc (60% - 120px - 120px);
+            float: left;
+            padding: 60px;
         }
 
             .close {
@@ -58,5 +71,5 @@ body {
                     }
 
                     .form-row > .link {
-                        
+
                     }
